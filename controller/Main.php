@@ -128,6 +128,7 @@ class subscribe_controller_Main
     /**
      * Запуск текущих рассылок
      * php cli.php --a subscribe.main.run > subscribe.log
+     * php /path/to/your/site/cli.php --a subscribe.main.run > /path/to/your/site/log/subscribe.log
      */
     public function runAction() {
 
@@ -406,6 +407,7 @@ class subscribe_controller_Main
     /**
      * Запуск обработки очереди
      * php cli.php --a subscribe.main.runQueue > subscribeQueue.log
+     * php /path/to/your/site/cli.php --a subscribe.main.runQueue > /path/to/your/site/log/subscribeQueue.log
      */
     public function runQueueAction() {
 

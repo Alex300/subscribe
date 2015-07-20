@@ -29,7 +29,7 @@ queueCount=06:string::100:
  * @author Kalnov Alexey    <kalnovalexey@yandex.ru>
  * @copyright Portal30 Studio http://portal30.ru
  *
- * Поставить драва на запись на файл modules/subscribe/inc/queue.txt
+ * Поставить права на запись на файл modules/subscribe/inc/queue.txt
  *
  * cot_url('subscribe') - активные периодические рассылки. Авторизованные пользователи могут подписаться
  * cot_url('subscribe', array('m'=>'user')) - мои подписки пользователя
